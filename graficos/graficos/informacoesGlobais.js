@@ -1,4 +1,4 @@
-const url = 'https://example.com/lung-cancer-stats.json'; // Replace with the actual URL
+const url = 'https://raw.githubusercontent.com/min0liveira/0009/main/api/dados-globais.json'; // Replace with the actual URL
 
 async function displayCancerStatistics() {
     const res = await fetch(url);
